@@ -1,0 +1,118 @@
+/* Basic page structure */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+/* Background colour */
+body{
+  background-color: white;
+}
+
+  /* Header */
+/* Background colour of the topbar and placing at the top (z value) of the page */
+.topbar {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* Structure/position of the left links in topbar */
+.topbar a{
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  font-size: 15px;
+  transform: translate(0px,7.5px);
+}
+
+/* Topbar links colour change when hovered */
+.topbar a:hover{
+  background-color: #2F4A60;
+  color: white;
+}
+
+/* Changing colour of the central title background */
+.topbar a.active{
+  font-size: 18px;
+  background-color: #2F4A60;
+  color: white;
+}
+
+/* Center main title of the topbar */
+.topbar-centered a{
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligning the logo links */
+.topbar-right{
+  float: right;
+}
+
+/* Structuring logo pngs */
+.logo1{
+  width: 30px;
+  height: 30px;
+  transform: translate(0px,-5px);
+}
+
+  /* Midder */
+/* The sidebar photos full structure and z value to place it at the bottom */
+.sidenav{
+  height: 100%;
+  width: 200px; 
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 0px;
+}
+
+/* The photos position within the sidebar */
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  display: block;
+}
+
+/* Pushing main text to the right of the side bar */
+.main{
+  margin-left: 200px;
+  margin-bottom: 60px;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+/* Defining photo widths to keep them uniform */
+.photo1{
+  width: 168px;
+}
+.photo2{
+  width: 700px;
+}
+  /* Footer */
+/* Defining the footers main structure */
+  footer{
+display:flex;
+background-color: #333;
+position: fixed;
+bottom: 0;
+height: 50px;
+width: 100%;
+z-index: 1;
+}
+ 
+/* Positioning of text within footer */
+.footer_text{
+  color: white;
+  font-size: 15px;
+margin:auto;
+ }
+
+

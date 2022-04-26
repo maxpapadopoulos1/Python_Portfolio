@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Webpage title and links to CSS formating -->
+	<title>Max Papadopoulos - Programming Page</title>
+	<link rel="stylesheet" type="text/css" href="pp1_css.css">
+</head>
+
+<body>
+<header>
+  <!-- Defining topbar class -->
+<div class="topbar">
+  <!-- Defining classeswithin the topbar for centering main page title -->
+  <div class="topbar-centered">
+    <a class="active">Max Papadopoulos - University of Leeds</a>
+</div>
+
+  <!-- Alinging currently unused href to the left of the topbar -->
+<div class="topbar-left">
+  <a href="">Python Code</a>
+  <a href="">Website Code</a>
+</div>
+
+  <!-- Alinging link logos to the top right of the topbar -->
+  <div class="topbar-right">
+    <a href="https://www.facebook.com/max.papadopoulos"> <img class="logo1" src="Facebook.png" alt="Facebook Logo"> </a>
+    <a href="https://www.instagram.com/maxperpedurpeles/?hl=en-gb"> <img class="logo1" src="Instagram.png" alt="Instagram Logo"> </a>
+	</div>
+</div>
+
+</header>
+<!-- Defining footer class for bottom bar -->
+<footer>
+    <div class="footer_text"> 
+      Univeristy of Birmingham - MSci Geology 2015/2019
+    </div>
+    <div class="footer_text">
+      University of Leeds - MSc GIS 2021/2022
+    </div>
+</footer>
+
+<!-- Defining classes for the left side bar -->
+<div class="sidenav">
+    <!-- Linking images with their formatting class -->
+  <a> <img class="photo1" src="photo3.jpg" alt="Graduation"> </a>
+  <a> <img class="photo1" src="photo4.jpg" alt="Highball"> </a>
+  <a> <img class="photo1" src="photo1.jpg" alt="Burbage N"> </a>
+  <a> <img class="photo1" src="photo2.jpg" alt="Burbage S"> </a>
+  <a> <img class="photo1" src="photo5.jpg" alt="Radioactive"> </a>
+</div>
+
+
+  <!-- Main text for the page -->
+<div class="main">
+  <!-- Simple html formatting for the main text -->
+  <br>
+  <h2>GEOG5990M Programming for Geographical Information Analysis: Portfolio Assessment</h2>
+  <br>
+  <p>About the 'Nibbler' Program</p>
+  <br>
+  <p>Link to the GitHub page: <a href='../Changing_Markers/multipleMarkers.html'>GitHub 'Nibblers' Program</a></p>
+  <br>
+  <br>
+  <p>This Python program was generated for the University of Leeds MSc GIS Python programming module portfolio.</p>
+  <br>
+  <br>
+  <p>The program simulates agents/'Nibblers' which exist atop a DTM converted into a two dimensional environment. The nibblers exectute a number of tasks based on random chance such as: eating/grazing the environment beneath them, sharing stored food with one another, excreting back to the environment, moving randomly, indepentantly aging and slowing down with age, and even reproducing when certain requirements are met. While currently simple the framework exists within this model to build into real-world simulations such as bacteria cultures or floral growth. </p>
+  <br>
+  <a> <img class="photo2" src="joint1.jpg" alt="Model in early stages"> </a>
+  <br>
+  <p>While the interface is simple it does display/feedback events to the user such as the age of the Nibblers (Green = young/0 - Red = old/300), their position as they move, when they have reproduced (Blue ring around birthing Nibbler), their deaths and wasting away, among others. Additionally, within Python the number of Births and Deaths are recorded to monitor the communities growth. The left image of the figure displays the model early in the iterations while the right shows it later through a run. </p>
+  <br>
+  <br>
+  <p> The TKinter GUI allows for a user to Run and Stop the model at any point. When accesssing the model.py file the user can also change a number of variables to examin the Nibblers at varying settings by changing their age, movement rate, environment consumed, range from one another, etc...
+</div>
+
+</body>
+</html>
